@@ -1,0 +1,30 @@
+{
+  "R_int_ohm": 0.0001,
+  "train_r2": 0.9952424330808405,
+  "train_mse": 9.263692492145857e-16,
+  "q95_unweighted": 5.9227061440279144e-08,
+  "q95_weighted": 6.086318125288415e-08,
+  "coverage_indistribution_pct": 94.99760755143765,
+  "coverage_unweighted_on_real_shift_pct": 70.1292768717738,
+  "coverage_weighted_on_real_shift_pct": 72.4178886300306,
+  "n_fuds": 22989,
+  "n_us06": 21891,
+  "f1_results": {
+    "Monza": {
+      "n_frames": 33253,
+      "ood_flag_rate_pct": 65.63618320151565,
+      "brake_rate_among_flagged_pct": 7.491065701456979,
+      "brake_rate_overall_pct": 15.685802784711154,
+      "drs_rate_among_flagged_pct": 13.08531109685696,
+      "drs_rate_overall_pct": 9.963010856163354
+    },
+    "Silverstone": {
+      "n_frames": 38892,
+      "ood_flag_rate_pct": 58.04792759436388,
+      "brake_rate_among_flagged_pct": 7.583274273564848,
+      "brake_rate_overall_pct": 16.049573177002983,
+      "drs_rate_among_flagged_pct": 16.517540751240254,
+      "drs_rate_overall_pct": 25.50653090609894
+    }
+  }
+}
